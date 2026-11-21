@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "donutprofit",
+  "version": "1.0.0",
+  "name": "DonutProfit",
+  "description": "HUD de profit diario para gambling en DonutSMP",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.donutprofit.DonutProfitClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
